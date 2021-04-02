@@ -14,7 +14,7 @@
 		
 		if (validate_email($email) && !empty($name) && !empty($subject) && !empty($comments) ) {
 		
-			if (mail('test@test.test', $subject, $message, "From: $email")) {
+			if (mail('uncleko496@gmail.com, $email', $subject, $message, "From: $email")) {
 				echo "<h2>Your message has been sent. Thanks!!</h2>
 							<h3>メッセージが送信されました。ありがとうございました。</h3>
 							<h3>できるだけ早く返信致しますのでしばしお待ちください。</h3>";
